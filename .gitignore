@@ -1,0 +1,18 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local artifacts
+frozen_runs/
+*.log
+
+# Caches
+.cache/
+node_modules/
