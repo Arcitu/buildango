@@ -1,0 +1,11 @@
+.venv
+__pycache__
+*.pyc
+.git
+.gitignore
+buildango.egg-info
+frozen_runs
+node_modules
+.DS_Store
+.vscode
+.idea
