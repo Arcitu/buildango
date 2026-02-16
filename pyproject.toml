@@ -26,3 +26,19 @@ dev = [
 
 [tool.ruff]
 line-length = 100
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["api*", "compiler*", "db*", "inference*", "pipelines*", "storage*", "workers*"]
+exclude = ["infra*", "tests*", "scripts*", "frozen_runs*", ".venv*", ".git*"]
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["api*", "compiler*", "db*", "inference*", "pipelines*", "storage*", "workers*"]
+exclude = ["infra*", "tests*", "scripts*", "frozen_runs*", ".venv*", ".git*"]
