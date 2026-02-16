@@ -1,0 +1,17 @@
+compiler/ must be deterministic:
+- no network calls
+- no LLM calls
+- no database writes
+
+LLM calls only allowed in inference/
+
+Persistence only allowed in:
+- db/
+- storage/
+
+Every feasibility run must write artifacts to:
+frozen_runs/<run_id>/
+
+Always add tests in tests/ when adding functionality.
+
+Never mix compiler logic with API logic.
