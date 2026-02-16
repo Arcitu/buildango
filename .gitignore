@@ -16,3 +16,7 @@ frozen_runs/
 # Caches
 .cache/
 node_modules/
+
+# Build artifacts
+buildango.egg-info/
+frozen_runs/
